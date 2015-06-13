@@ -2,4 +2,4 @@
 
 module.exports = {
 	get: require('./lib/get.js')
-}
+};
