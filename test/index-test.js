@@ -24,7 +24,6 @@ describe('load favicons', function () {
 		this.timeout(10000);
 		favorite.get('https://nodejs.org', function (err, data) {
 			expect(err).to.equal(null);
-			console.log(data);
 			expect(data).to.be.ok();
 			done();
 		});
